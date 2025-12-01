@@ -1,0 +1,105 @@
+/* Parametros generales */
+
+/* Home page */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: "Montserrat";
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #000000 20%, rgb(71, 71, 71));
+    background-size: cover;
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.encabezado {
+    background-color: #2c2c2c;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion a{
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 20rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navegacion a:hover{
+    background-color: rgba(167, 167, 167, 0.685);
+}
+
+footer {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100vh;
+}
+
+/* Fin del Home Page */
+
+/* Registro */
+
+.registro {
+    position: absolute;
+    transform: translate3d(-50%, 35%, 0);
+    left: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+    height: 45rem;
+    background-color:#5c5555;
+    border-radius: 4rem;
+}
+
+.dato {
+    color: #ffffff;
+    margin-top: 2rem;
+    padding: 1.2rem;
+    width: 80%;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: #2c2c2c;
+    background-color: #5c5555;
+    color: #ffffff;
+}
+
+.registro, .recuerdame, label {
+    margin-top: 0.5rem;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.recordar-user {
+    display: flex;
+}
