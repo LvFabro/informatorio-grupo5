@@ -1,0 +1,27 @@
+{% extends 'blog/base.html' %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    {% block content %}
+        <div class="registro">
+            <h1>Crea una cuenta</h1>
+            <input type="text" placeholder="Nombre de usuario" required class="dato">
+            <input type="text" placeholder="Correo electrónico" required class="dato">
+            <input type="text" placeholder="Contraseña" required class="dato">
+            <input type="text" placeholder="Repetir contraseña" required class="dato">
+            <div class="recordar-user">
+                <input type="checkbox" class="recuerdame"><label for="recuerdame">Recuérdame</label>
+            </div>
+        </div>
+    {% endblock content %}
+</body>
+
+</html>

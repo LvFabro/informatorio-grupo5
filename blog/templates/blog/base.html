@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <title>
+    {% block title %}
+        base
+    {% endblock title %}
+        </title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <h1 class="titulo">Blog Informatorio Equipo 5</h1>
+        <nav class="navegacion">
+            <a href="">Inicio</a>
+            <a href="">Publicaciones</a>
+            <a href="">Noticias</a>
+            <a href="">Nosotros</a>
+            <a href="">Registrarse</a>
+        </nav>
+    </header>
+
+    <main>
+
+        {% block content %}
+        
+        {% endblock content %}
+
+    </main>
+
+    <footer>Informatorio Grupo 5 todos los derechos reservados ©</footer>
+</body>
+
+</html>
