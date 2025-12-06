@@ -67,15 +67,15 @@ footer {
 
 .registro {
     position: absolute;
-    transform: translate3d(-50%, 35%, 0);
+    transform: translate3d(-50%, 20%, 0);
     left: 50%;
     right: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50rem;
-    height: 45rem;
+    width: 55rem;
+    height: 55rem;
     background-color:#5c5555;
     border-radius: 4rem;
 }
@@ -102,4 +102,19 @@ footer {
 
 .recordar-user {
     display: flex;
+}
+
+.iniciar-sesion {
+    color: rgb(23, 255, 35);
+}
+
+.registrarse {
+    padding: 1.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    border-style: solid;
+    cursor:pointer;
+    color: white;
+    background-color: green;
 }
